@@ -1,9 +1,11 @@
-﻿program Fektarial;
-var N,i,f:integer;
+﻿var N, i, f:integer;
 begin
-  read(N);
+  writeln('Программа поиска факториала числа');
+  write('Введите целое положительное число: ');
+  readln(N);
   f:=1;
   for i:=1 to N do
     f:=f*i;
-  write(sum);
+  
+  write('Результат: ', f);
 end.

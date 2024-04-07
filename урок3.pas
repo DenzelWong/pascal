@@ -1,9 +1,7 @@
-﻿var a,b,c,s:integer;
+﻿var a, b, c, s:integer;
 begin
+  writeln('Программа вычисления площади прямоугольного параллеллепипеда');
   write('Введите длины ребер: ');
-  read(a,b,c);
-  write('S=',2*(a*b+b*c+a*c));
- 
-  
-  
+  readln(a, b, c);
+  write('S=', 2 * (a*b + b*c + a*c));
 end.

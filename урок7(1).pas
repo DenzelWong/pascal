@@ -1,10 +1,12 @@
-﻿program q;
-var i,cnt:integer;
+﻿var i, count:integer;
 s:string;
 begin
-  readln(cnt);
+  write('Введите количество повторений: ');
+  readln(count);
+  write('Введите слово, которое будет повторяться: ');
   readln(s);
-  for i:=1 to cnt do
+  writeln('Результат: ');
+  for i:=1 to count do
   begin
     writeln(s);
   end;
