@@ -1,7 +1,8 @@
 ﻿program Max4;
 var a,b,c,d,M: integer;
 begin
-  writeln('ВВедите четыре целых числа: ');
+  writeln('Программа по поиску наибольшего числа ');
+  writeln('Введите четыре целых числа: ');
   read(a,b,c,d);
   M:=a;
     if b>M then 
